@@ -1,6 +1,6 @@
-import { depositar } from "./modules/depositar.js";
-import { retirarDinero } from "./modules/retirar.js";
-import { mostrarSaldo } from "./modules/saldo.js";
+import { depositar } from "../modules/depositar.js";
+import { retirarDinero } from "../modules/retirar.js";
+import { mostrarSaldo } from "../modules/saldo.js";
 let saldo = 0;
 let operacion = "";
 while (operacion !== '4') {
